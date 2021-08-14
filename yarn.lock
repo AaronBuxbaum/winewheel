@@ -288,7 +288,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.18":
+"@types/react@npm:^17.0.18":
   version: 17.0.18
   resolution: "@types/react@npm:17.0.18"
   dependencies:
@@ -1487,7 +1487,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:11.1.0":
+"eslint-config-next@npm:^11.1.0":
   version: 11.1.0
   resolution: "eslint-config-next@npm:11.1.0"
   dependencies:
@@ -1657,7 +1657,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:7.32.0":
+"eslint@npm:^7.32.0":
   version: 7.32.0
   resolution: "eslint@npm:7.32.0"
   dependencies:
@@ -2992,7 +2992,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"next@npm:11.1.0":
+"next@npm:^11.1.0":
   version: 11.1.0
   resolution: "next@npm:11.1.0"
   dependencies:
@@ -3707,7 +3707,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-dom@npm:17.0.2":
+"react-dom@npm:^17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2"
   dependencies:
@@ -3741,7 +3741,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react@npm:17.0.2":
+"react@npm:^17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2"
   dependencies:
@@ -4606,7 +4606,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-typescript@4.3.5:
+typescript@^4.3.5:
   version: 4.3.5
   resolution: "typescript@npm:4.3.5"
   bin:
@@ -4616,7 +4616,7 @@ typescript@4.3.5:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.3.5#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.3.5#~builtin<compat/typescript>":
   version: 4.3.5
   resolution: "typescript@patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"
   bin:
@@ -4785,13 +4785,13 @@ typescript@4.3.5:
   resolution: "web@workspace:packages/web"
   dependencies:
     "@types/node": ^16.6.1
-    "@types/react": 17.0.18
-    eslint: 7.32.0
-    eslint-config-next: 11.1.0
-    next: 11.1.0
-    react: 17.0.2
-    react-dom: 17.0.2
-    typescript: 4.3.5
+    "@types/react": ^17.0.18
+    eslint: ^7.32.0
+    eslint-config-next: ^11.1.0
+    next: ^11.1.0
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    typescript: ^4.3.5
   languageName: unknown
   linkType: soft
 
@@ -4864,8 +4864,8 @@ typescript@4.3.5:
   version: 0.0.0-use.local
   resolution: "winewheel@workspace:."
   dependencies:
-    eslint: 7.32.0
-    typescript: 4.3.5
+    eslint: ^7.32.0
+    typescript: ^4.3.5
   languageName: unknown
   linkType: soft
 
