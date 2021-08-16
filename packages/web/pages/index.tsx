@@ -1,17 +1,22 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import { useRouter } from 'next/router'
 import styles from '../styles/Home.module.css'
+import Button from 'react-bootstrap/Button';
+import InputGroup from 'react-bootstrap/InputGroup';
+import FormControl from 'react-bootstrap/FormControl';
+import { pickRandomAroma } from '../utils/aroma';
+
 
 const Home: NextPage = () => {
+  const router = useRouter()
+
+  const selectRandomAroma = () => {
+    const { id } = pickRandomAroma();
+    router.push(`/${id}`);
+  }
+
   return (
     <div className={styles.container}>
-      <Head>
-        <title>WineFinder</title>
-        <meta name="description" content="Find your next favorite wine" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main className={styles.main}>
         <h1 className={styles.title}>
           WineFinder
@@ -21,15 +26,16 @@ const Home: NextPage = () => {
           I like wine with notes of...
         </p>
 
-        <input />
+        <InputGroup className="mb-3" size="lg">
+          <FormControl />
+          <Button variant="outline-info">
+            Search
+          </Button>
+        </InputGroup>
 
-        <button>
-          Search
-        </button>
-
-        <button>
-          Randomize
-        </button>
+        <Button variant="outline-info" size="lg" onClick={selectRandomAroma}>
+          I&apos;m feeling lucky
+        </Button>
       </main>
     </div>
   )
