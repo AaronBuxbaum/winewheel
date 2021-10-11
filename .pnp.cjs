@@ -989,17 +989,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["bootstrap", [
-        ["npm:5.1.0", {
-          "packageLocation": "./.yarn/cache/bootstrap-npm-5.1.0-315157d7ea-1e556b71c4.zip/node_modules/bootstrap/",
+        ["npm:5.1.3", {
+          "packageLocation": "./.yarn/cache/bootstrap-npm-5.1.3-691fdc19a6-301b5ed872.zip/node_modules/bootstrap/",
           "packageDependencies": [
-            ["bootstrap", "npm:5.1.0"]
+            ["bootstrap", "npm:5.1.3"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:569035de073023aa8b0b5018956311b227b0a904329a09033178811fc3e35e666a9055672cf1571918d7dc6006c37bb02ee20b7a6a08428927cea962afec4a25#npm:5.1.0", {
-          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-bcd9ae4fef/0/cache/bootstrap-npm-5.1.0-315157d7ea-1e556b71c4.zip/node_modules/bootstrap/",
+        ["virtual:569035de073023aa8b0b5018956311b227b0a904329a09033178811fc3e35e666a9055672cf1571918d7dc6006c37bb02ee20b7a6a08428927cea962afec4a25#npm:5.1.3", {
+          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-bc0cb867fe/0/cache/bootstrap-npm-5.1.3-691fdc19a6-301b5ed872.zip/node_modules/bootstrap/",
           "packageDependencies": [
-            ["bootstrap", "virtual:569035de073023aa8b0b5018956311b227b0a904329a09033178811fc3e35e666a9055672cf1571918d7dc6006c37bb02ee20b7a6a08428927cea962afec4a25#npm:5.1.0"],
+            ["bootstrap", "virtual:569035de073023aa8b0b5018956311b227b0a904329a09033178811fc3e35e666a9055672cf1571918d7dc6006c37bb02ee20b7a6a08428927cea962afec4a25#npm:5.1.3"],
             ["@popperjs/core", null],
             ["@types/popperjs__core", null]
           ],
@@ -5864,7 +5864,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/lodash", "npm:4.14.175"],
             ["@types/node", "npm:16.6.1"],
             ["@types/react", "npm:17.0.18"],
-            ["bootstrap", "virtual:569035de073023aa8b0b5018956311b227b0a904329a09033178811fc3e35e666a9055672cf1571918d7dc6006c37bb02ee20b7a6a08428927cea962afec4a25#npm:5.1.0"],
+            ["bootstrap", "virtual:569035de073023aa8b0b5018956311b227b0a904329a09033178811fc3e35e666a9055672cf1571918d7dc6006c37bb02ee20b7a6a08428927cea962afec4a25#npm:5.1.3"],
             ["eslint", "npm:8.0.0"],
             ["eslint-config-next", "virtual:569035de073023aa8b0b5018956311b227b0a904329a09033178811fc3e35e666a9055672cf1571918d7dc6006c37bb02ee20b7a6a08428927cea962afec4a25#npm:11.1.0"],
             ["lodash", "npm:4.17.21"],
