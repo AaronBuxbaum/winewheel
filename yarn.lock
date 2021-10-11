@@ -3791,9 +3791,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-bootstrap@npm:^1.6.1":
-  version: 1.6.1
-  resolution: "react-bootstrap@npm:1.6.1"
+"react-bootstrap@npm:^1.6.4":
+  version: 1.6.4
+  resolution: "react-bootstrap@npm:1.6.4"
   dependencies:
     "@babel/runtime": ^7.14.0
     "@restart/context": ^2.1.4
@@ -3808,14 +3808,14 @@ fsevents@~2.3.1:
     invariant: ^2.2.4
     prop-types: ^15.7.2
     prop-types-extra: ^1.1.0
-    react-overlays: ^5.0.1
+    react-overlays: ^5.1.1
     react-transition-group: ^4.4.1
     uncontrollable: ^7.2.1
     warning: ^4.0.3
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 45f64d6a7e558cf7c31437b4c1ffe7a78162b53fa2746835ac1389474f2ed61205659201bd3667d86b829526ca6545a29824ecee380a38b35094c9df17f75f3c
+  checksum: c68ecd9becbcd55328a899ee4ae246d0a0a21082ab603caf10da22f27a635088227e93ea3e3c380c883538a8e07e0b8e017868f562dcd72fa85998a830be8124
   languageName: node
   linkType: hard
 
@@ -3853,7 +3853,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-overlays@npm:^5.0.1":
+"react-overlays@npm:^5.1.1":
   version: 5.1.1
   resolution: "react-overlays@npm:5.1.1"
   dependencies:
@@ -4926,7 +4926,7 @@ typescript@^4.3.5:
     lodash: ^4.17.21
     next: ^11.1.0
     react: ^17.0.2
-    react-bootstrap: ^1.6.1
+    react-bootstrap: ^1.6.4
     react-dom: ^17.0.2
     typescript: ^4.3.5
   languageName: unknown
