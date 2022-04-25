@@ -452,10 +452,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/lodash", [
-        ["npm:4.14.175", {
-          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.175-67ba7c1d86-50721f33fa.zip/node_modules/@types/lodash/",
+        ["npm:4.14.182", {
+          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.182-1073aac722-7dd137aa9d.zip/node_modules/@types/lodash/",
           "packageDependencies": [
-            ["@types/lodash", "npm:4.14.175"]
+            ["@types/lodash", "npm:4.14.182"]
           ],
           "linkType": "HARD",
         }]
@@ -5861,7 +5861,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/web/",
           "packageDependencies": [
             ["web", "workspace:packages/web"],
-            ["@types/lodash", "npm:4.14.175"],
+            ["@types/lodash", "npm:4.14.182"],
             ["@types/node", "npm:16.6.1"],
             ["@types/react", "npm:17.0.18"],
             ["bootstrap", "virtual:569035de073023aa8b0b5018956311b227b0a904329a09033178811fc3e35e666a9055672cf1571918d7dc6006c37bb02ee20b7a6a08428927cea962afec4a25#npm:5.1.0"],
