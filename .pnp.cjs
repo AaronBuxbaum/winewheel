@@ -461,10 +461,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:16.6.1", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-16.6.1-df37ae7d3a-c13aa0da0c.zip/node_modules/@types/node/",
+        ["npm:16.11.41", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.11.41-e10b7bd53b-808e4d6575.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:16.6.1"]
+            ["@types/node", "npm:16.11.41"]
           ],
           "linkType": "HARD",
         }]
@@ -3229,7 +3229,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/jest-worker-npm-27.0.0-next.5-6f53fab806-d56bfe67cd.zip/node_modules/jest-worker/",
           "packageDependencies": [
             ["jest-worker", "npm:27.0.0-next.5"],
-            ["@types/node", "npm:16.6.1"],
+            ["@types/node", "npm:16.11.41"],
             ["merge-stream", "npm:2.0.0"],
             ["supports-color", "npm:8.1.1"]
           ],
@@ -5862,7 +5862,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["web", "workspace:packages/web"],
             ["@types/lodash", "npm:4.14.175"],
-            ["@types/node", "npm:16.6.1"],
+            ["@types/node", "npm:16.11.41"],
             ["@types/react", "npm:17.0.18"],
             ["bootstrap", "virtual:569035de073023aa8b0b5018956311b227b0a904329a09033178811fc3e35e666a9055672cf1571918d7dc6006c37bb02ee20b7a6a08428927cea962afec4a25#npm:5.1.0"],
             ["eslint", "npm:8.0.0"],

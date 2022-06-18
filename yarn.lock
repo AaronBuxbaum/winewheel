@@ -315,10 +315,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^16.6.1":
-  version: 16.6.1
-  resolution: "@types/node@npm:16.6.1"
-  checksum: c13aa0da0c2bf9070e521d1b537ba38f64b213dd1b8aeec66c279fc21f8c0ccaf380364f6dc2ec8f84440c4cd1460b67dfe47de2cafcb6eaf4b648817cb27dc4
+"@types/node@npm:*, @types/node@npm:^16.11.41":
+  version: 16.11.41
+  resolution: "@types/node@npm:16.11.41"
+  checksum: 808e4d65757bb13cf25e88dfa4e65880efef06652b04baecb051eb90cf090dda9812aa3505b31e963a48041eed7dbe0fc59c44c7c5e117da952ff951bf3a584a
   languageName: node
   linkType: hard
 
@@ -4918,7 +4918,7 @@ typescript@^4.3.5:
   resolution: "web@workspace:packages/web"
   dependencies:
     "@types/lodash": ^4.14.175
-    "@types/node": ^16.6.1
+    "@types/node": ^16.11.41
     "@types/react": ^17.0.18
     bootstrap: ^5.1.0
     eslint: ^8.0.0
