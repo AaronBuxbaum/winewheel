@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.175",
-    "@types/node": "^16.6.1",
+    "@types/node": "^16.18.115",
     "@types/react": "^17.0.18",
     "eslint": "^8.0.0",
     "eslint-config-next": "^11.1.0",
